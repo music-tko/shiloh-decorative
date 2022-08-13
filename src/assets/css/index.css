@@ -4,13 +4,16 @@ body{
   margin: 0;
 }
 
+/* Nav Styling*/
 .nav{
     padding: 5px 30px;
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: transparent;
     color: white;
     height: 80px;
+    width: 97vw;
 }
 
 .links{
@@ -32,4 +35,21 @@ body{
 
 .a-link{
     margin: 0 50px;
+}
+
+/* Hero Styling*/
+.hero{
+  background-image: url('../images/hero.jpeg');
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  height: 100vh;
+}
+
+.hero-content {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  height: 100vh;
 }
