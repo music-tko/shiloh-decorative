@@ -22,7 +22,12 @@ body{
 .nav a{
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
   font-family: 'Inter', sans-serif;
+}
+
+.nav a:hover{
+  cursor: pointer;
 }
 
 .a-link{
