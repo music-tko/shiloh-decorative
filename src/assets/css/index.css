@@ -2,6 +2,7 @@
 
 body{
   margin: 0;
+  font-family: 'Inter';
 }
 
 /* Nav Styling*/
@@ -72,19 +73,20 @@ body{
 
 .hero-content div .hero-text p{
   font-size: 20px;
+  line-height: 30px;
 }
 
 .cta{
   margin-top: 40px;
 }
-.cta .explore{
+.explore{
   padding: 10px 30px;
   text-decoration: none;
   color: white;
   position: relative;
 }
 
-.cta .explore::before{
+.explore::before{
   content: "";
   position: absolute;
   inset: 0;
@@ -126,4 +128,63 @@ body{
   height: 60px;
   background-size: 50px;
   background-repeat: no-repeat;
+}
+
+
+/* About Section Styling */
+
+.about-section{
+    background-color: black;
+    display: flex;
+    gap:20px;
+    color: #fff;
+}
+
+.about-section .text{
+  margin: 50px 60px;
+  width: 40vw;
+}
+
+.about-section .text h1{
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.about-section .text p{
+  margin: 60px 0;
+  width: 450px;
+  line-height: 30px;
+}
+
+.about-section .stats{
+  width: 30vw;
+  margin: 50px 60px;
+  padding: 30px;
+  border: 1px solid rgba(123, 0, 255, 0.837);
+}
+
+.about-section .stats p{
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.about-section .stats p span{
+  font-size: 200px;
+}
+
+.about .about-paragraphs{
+  background-color: rgb(13, 12, 12);
+  padding: 50px 60px;
+  color: white;
+  /* margin: 50px 60px; */
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.about .about-paragraphs .about-paragraph{
+  width: 350px;
+  line-height: 30px;
+  font-weight: 300;
 }
