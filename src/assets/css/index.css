@@ -188,3 +188,56 @@ body{
   line-height: 30px;
   font-weight: 300;
 }
+
+/* Services Section */
+
+.services{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 100px;
+}
+
+.service-block{
+  width: 350px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hammer{
+  background-image: url('../images/hammer.png');
+  background-size: 70px;
+  width: 70px;
+  height: 70px;
+}
+
+.toolbox{
+  background-image: url('../images/toolbox.png');
+  background-size: 70px;
+  width: 70px;
+  height: 70px;
+}
+
+.tape{
+  background-image: url('../images/tape-measure.png');
+  background-size: 70px;
+  width: 70px;
+  height: 70px;
+}
+
+.drill{
+  background-image: url('../images/drill.png');
+  background-size: 70px;
+  width: 70px;
+  height: 70px;
+}
+
+.saw{
+  background-image: url('../images/saw-blade.png');
+  background-size: 70px;
+  width: 70px;
+  height: 70px;
+}
