@@ -7,8 +7,8 @@ const Hero = () => {
                     <h1>Over 15 Years Of Experience In The Industry</h1>
                     <p>Our experience quarantees client satisfication and high end quality products</p>
                 </div>
-                <div class="cta">
-                    <a href="/gallery" class="explore">Explore Now</a>
+                <div className="cta">
+                    <a href="/gallery" className="explore">Explore Now</a>
                 </div>
                 <div className="socials">
                     <div className="facebook"></div>
