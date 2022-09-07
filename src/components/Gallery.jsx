@@ -3,16 +3,16 @@ import 'pro-gallery/dist/statics/main.css';
 
 const Gallery = () => {
     const items = [
-        { // Image Item:
-          itemId: 'sample-id',
-          mediaUrl: 'https://i.ibb.co/S66b9pd/bucket.jpg',
-          metaData: {
-            type: 'image',
-            height: 200,
-            width: 100,
-            focalPoint: [0, 0],
-          }
-        },
+      { // Image Item:
+        itemId: '1',
+        mediaUrl: 'https://i.ibb.co/cxqZXnW/church.jpg',
+        metaData: {
+          type: 'image',
+          height: 200,
+          width: 200,
+          focalPoint: [0, 0],
+        }
+      },
         { // Image Item:
             itemId: '2',
             mediaUrl: 'https://i.ibb.co/9VB0ycr/chairs.jpg',
@@ -25,11 +25,11 @@ const Gallery = () => {
           },
           { // Image Item:
             itemId: '3',
-            mediaUrl: 'https://i.ibb.co/cxqZXnW/church.jpg',
+            mediaUrl: 'https://i.ibb.co/S66b9pd/bucket.jpg',
             metaData: {
               type: 'image',
               height: 200,
-              width: 100,
+              width: 300,
               focalPoint: [0, 0],
             }
           },
@@ -63,7 +63,7 @@ const Gallery = () => {
             metaData: {
               type: 'image',
               height: 200,
-              width: 100,
+              width: 300,
               focalPoint: [0, 0],
             }
           },
@@ -83,7 +83,7 @@ const Gallery = () => {
             metaData: {
               type: 'image',
               height: 200,
-              width: 100,
+              width: 300,
               focalPoint: [0, 0],
             }
           },
@@ -159,7 +159,7 @@ const Gallery = () => {
             metaData: {
               type: 'image',
               height: 200,
-              width: 100,
+              width: 300,
 
               focalPoint: [0, 0],
             }
@@ -203,7 +203,7 @@ const Gallery = () => {
             metaData: {
               type: 'image',
               height: 200,
-              width: 100,
+              width: 350,
 
               focalPoint: [0, 0],
             }
@@ -225,7 +225,7 @@ const Gallery = () => {
             metaData: {
               type: 'image',
               height: 200,
-              width: 100,
+              width: 300,
 
               focalPoint: [0, 0],
             }
@@ -280,7 +280,7 @@ const Gallery = () => {
             metaData: {
               type: 'image',
               height: 200,
-              width: 100,
+              width: 300,
 
               focalPoint: [0, 0],
             }
@@ -302,7 +302,7 @@ const Gallery = () => {
             metaData: {
               type: 'image',
               height: 200,
-              width: 100,
+              width: 300,
 
               focalPoint: [0, 0],
             }
@@ -346,24 +346,14 @@ const Gallery = () => {
             metaData: {
               type: 'image',
               height: 200,
-              width: 100,
+              width: 300,
 
               focalPoint: [0, 0],
             }
           },
+          
           { // Image Item:
             itemId: '33',
-            mediaUrl: 'https://i.ibb.co/5Y3VT4f/download-26.jpg',
-            metaData: {
-              type: 'image',
-              height: 200,
-              width: 100,
-
-              focalPoint: [0, 0],
-            }
-          },
-          { // Image Item:
-            itemId: '34',
             mediaUrl: 'https://i.ibb.co/XtVjMW8/download-27.jpg',
             metaData: {
               type: 'image',
@@ -374,8 +364,19 @@ const Gallery = () => {
             }
           },
           { // Image Item:
-            itemId: '35',
+            itemId: '34',
             mediaUrl: 'https://i.ibb.co/2F5WzxR/download-29.jpg',
+            metaData: {
+              type: 'image',
+              height: 200,
+              width: 100,
+
+              focalPoint: [0, 0],
+            }
+          },
+          { // Image Item:
+            itemId: '35',
+            mediaUrl: 'https://i.ibb.co/5Y3VT4f/download-26.jpg',
             metaData: {
               type: 'image',
               height: 200,

@@ -11,7 +11,7 @@ const Photos = () => {
            <div className="pic six"></div>
            <div className="pic seven"></div>
            <div className="pic eight"></div>
-           <a href="#"><div className="pic nine"><p>Load More</p><p>&#8594;</p></div></a>
+           <a href="/gallery"><div className="pic nine"><p>Load More</p><p>&#8594;</p></div></a>
         </div>
         </div>
      );

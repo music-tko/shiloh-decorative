@@ -16,10 +16,12 @@ body{
     position: fixed;
     display: flex;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: black;
     color: white;
     height: 80px;
     width: 97vw;
+    z-index: 100
+    ;
 }
 
 .links{
@@ -407,6 +409,10 @@ body{
 .nine:hover{
   cursor: pointer;
   background-color: rgb(26, 16, 36);
+}
+
+div#pro-gallery-default-dom-id {
+  padding: 100px 10px 0 10px;
 }
 
 .contact-us{
