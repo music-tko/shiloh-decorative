@@ -11,9 +11,9 @@ const Hero = () => {
                     <a href="/gallery" className="explore">Explore Now</a>
                 </div>
                 <div className="socials">
-                    <a><div className="facebook"></div></a>
-                    <a><div className="instagram"></div></a>
-                    <a><div className="linkedin"></div></a>
+                    <a href="https://www.facebook.com/shilohdecorativeideas/"><div className="facebook"></div></a>
+                    <a href="https://www.instagram.com/shilohideas/"><div className="instagram"></div></a>
+                    <a href="https://za.linkedin.com/in/adegbiji-a-ezekiel-05b64534"><div className="linkedin"></div></a>
                 </div>
                 </div>
             </div> 

@@ -1,6 +1,6 @@
 const Photos = () => {
     return ( 
-        <div className="photo-section">
+        <div className="photo-section" id="photos">
             <h1>Our Work</h1>
         <div className="photos">
            <div className="pic one"></div>

@@ -9,6 +9,7 @@ import {
 import App from './App';
 import Gallery from './components/Gallery';
 import Header from './layout/Header';
+import Footer from './layout/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     <Route path="/" element={<App />} />
     <Route path="/gallery" element={<Gallery />} />
     </Routes>
+    <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

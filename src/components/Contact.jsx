@@ -16,7 +16,7 @@ const Contact = () => {
     };
   
     return ( 
-        <div className="contact-us">
+        <div className="contact-us" id='contact'>
             <div className="contact-text">
                <h1>Get A Quote</h1> 
                <p className='sub-text'><strong>Fill up the form and our team will get back to you within 24 hours.</strong></p>
@@ -28,9 +28,9 @@ const Contact = () => {
                </div>
 
                <div className="socials">
-                    <a><div className="facebook"></div></a>
-                    <a><div className="instagram"></div></a>
-                    <a><div className="linkedin"></div></a>
+               <a href="https://www.facebook.com/shilohdecorativeideas/"><div className="facebook"></div></a>
+                    <a href="https://www.instagram.com/shilohideas/"><div className="instagram"></div></a>
+                    <a href="https://za.linkedin.com/in/adegbiji-a-ezekiel-05b64534"><div className="linkedin"></div></a>
                 </div>
             </div>
             <form ref={form} onSubmit={sendEmail}>

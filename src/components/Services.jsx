@@ -1,6 +1,6 @@
 const Services = () => {
     return ( 
-        <div className="services">
+        <div className="services" id="services">
             <div className="service-block">
                 <div className="hammer"></div>
                 <h2>Stage Props</h2>
