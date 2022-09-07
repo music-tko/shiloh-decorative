@@ -1,10 +1,17 @@
-import Header from "./layout/Header";
-
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Hero from "./components/Hero";
+import Photos from "./components/Photos";
+import Services from "./components/Services";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Hero />
+      <About />
+      <Services />
+      <Photos />
+      <Contact />
     </div>
   );
 }
