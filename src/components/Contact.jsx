@@ -19,19 +19,19 @@ const Contact = () => {
         <div className="contact-us">
             <div className="contact-text">
                <h1>Get A Quote</h1> 
-               <p>Fill up the form and our team will get back to you within 24 hours.</p>
+               <p className='sub-text'><strong>Fill up the form and our team will get back to you within 24 hours.</strong></p>
 
                <div className="contact-details">
                <div className="phone"><a href="tel:+0843646468">Click To Call</a></div>
-               <div className="email"><a href="mailto:xyz@abc.com">Send Us An Email</a></div>
+               <div className="email"><a href="mailto:alaba.adegbiji@gmail.com">Send Us An Email</a></div>
                <div className="address">Cnr Amsterdam Street, Gerdview, Germiston, 1401</div>
                </div>
 
                <div className="socials">
-                <div></div>
-                <div></div>
-                <div></div>
-               </div>
+                    <div className="facebook"></div>
+                    <div className="instagram"></div>
+                    <div className="linkedin"></div>
+                </div>
             </div>
             <form ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
@@ -40,7 +40,7 @@ const Contact = () => {
                 <input type="email" name="user_email" />
                 <label>Message</label>
                 <textarea name="message" />
-                <input type="submit" value="Send" />
+                <input type="submit" value="Send" className='submit'/>
             </form>
         </div>
      );
