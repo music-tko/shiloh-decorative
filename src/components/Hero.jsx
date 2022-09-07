@@ -16,8 +16,7 @@ const Hero = () => {
                     <a><div className="linkedin"></div></a>
                 </div>
                 </div>
-            </div>
-           
+            </div> 
         </div>
     );
 }
