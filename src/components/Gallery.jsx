@@ -1,36 +1,6 @@
 import { ProGallery } from 'pro-gallery';
 import 'pro-gallery/dist/statics/main.css';
 
-
-// https://ibb.co/MGKHPZC
-// https://ibb.co/1bcPJWC
-// https://ibb.co/B6zwKZ0
-// https://ibb.co/mXHBHxt
-// https://ibb.co/PQyF80x
-// https://ibb.co/D44pbmM
-// https://ibb.co/SVHK5pr
-// https://ibb.co/pjNXjTS
-// https://ibb.co/NsYMPJ3
-// https://ibb.co/99Y5mSP
-// https://ibb.co/nc0d3x5
-// https://ibb.co/ykGZmQt
-// https://ibb.co/XVwPDzF
-// https://ibb.co/drDQ7jp
-// https://ibb.co/ncCKp3D
-// https://ibb.co/ykGZmQt
-// https://ibb.co/RyWwRh8
-// https://ibb.co/vmKTdnf
-// https://ibb.co/cXXfnKw
-// https://ibb.co/PmGLB8c
-// https://ibb.co/s1r4MdH
-// https://ibb.co/kMSpbnQ
-// https://ibb.co/F3D2mxL
-// https://ibb.co/GdbqPTt
-// https://ibb.co/hFtF6zy
-// https://ibb.co/gJbqkv1
-// https://ibb.co/D44pbmM
-// https://ibb.co/hFtF6zy
-
 const Gallery = () => {
     const items = [
         { // Image Item:
