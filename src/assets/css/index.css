@@ -270,11 +270,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
       font-size: 40px !important;
   }
   .about-section .text p {
-    width: 350px !important;
+    width: 300px !important;
 }
 .about-section .stats {
-  margin: 50px 30px !important;
+  margin: 50px 10px !important;
 }
+
+.about-section .stats p span {
+  font-size: 186px !important;
+}
+
 .about-paragraphs {
   flex-wrap: wrap;
 }
@@ -393,7 +398,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .photo-section h1{
-  text-decoration: underline;
   text-underline-offset: 15px;
   margin: 40px 0 80px 0;
 }
