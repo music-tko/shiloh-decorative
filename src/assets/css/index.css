@@ -62,73 +62,71 @@ body{
     margin: 0 50px;
 }
 
-/* Position and sizing of burger button */
-.bm-burger-button {
-  position: fixed;
-  width: 32px;
-  height: 22px;
-  right: 36px;
-  top: 29px;
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
 }
 
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-  background: white;
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: rgba(123, 0, 255, 0.837);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 85px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: rgba(123, 0, 255, 0.837);
 }
 
-/* Color/shape of burger icon bars on hover*/
-.bm-burger-bars-hover {
-  background: #a90000;
-}
-
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-  height: 30px;
-  width: 30px;
-}
-
-/* Color/shape of close button cross */
-.bm-cross {
-  background: white;
-}
-
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
-.bm-menu-wrap {
-  position: fixed;
-  height: 100%;
-}
-
-/* General sidebar styles */
-.bm-menu {
-  background: black;
-  padding: 4.5em 1.5em 0;
-  font-size: 1.15em;
-}
-
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-  fill: #373a47;
-}
-
-/* Wrapper for item list */
-.bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
-  list-style: none;
-}
-
-/* Individual item */
-.bm-item {
-  display: inline-block;
-  margin: 60px 0;
-}
-
-/* Styling of overlay */
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .navigation-menu ul {
+    display: none;
+  }
+  .navigation-menu ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: black;
+    border-top: 1px solid black;
+  }
+  .navigation-menu li {
+    text-align: center;
+    margin: 60px 0 0 -40px;
+  }
+  .navigation-menu li a {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+  }
 }
 /* Hero Styling*/
 .hero{
@@ -537,6 +535,9 @@ div#pro-gallery-default-dom-id {
 }
 
 @media screen and (max-width: 500px) {
+  .contact-us {
+    padding: 20px !important;
+  }
   .contact-text h1 {
     width: 300px;
     font-size: 45px !important;
@@ -544,6 +545,9 @@ div#pro-gallery-default-dom-id {
   }
   .contact-text {
     line-height: 35px !important;
+}
+.submit {
+  color: black !important;
 }
 }
 
